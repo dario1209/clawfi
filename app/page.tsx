@@ -1,4 +1,4 @@
--// app/page.tsx
+// app/page.tsx
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white flex items-center px-6">
