@@ -7,7 +7,7 @@ export default function Home() {
         {/* LEFT: clawfi image */}
         <div className="w-full md:w-1/2">
           <Image
-            src="/clawfi-image.png"   // <-- match your filename in /public
+            src="/claw-image.png"   // <-- match your filename in /public
             alt="ClawFi screens"
             width={800}
             height={600}
