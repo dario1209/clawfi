@@ -1,11 +1,11 @@
-// app/page.tsx
+-// app/page.tsx
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white flex items-center px-6">
       <div className="mx-auto w-full max-w-5xl">
         {/* Small label */}
         <p className="text-xs md:text-sm uppercase tracking-[0.25em] text-neutral-500 mb-4">
-          Neo-gamified AMM platform
+          Neo-GameFi AMM/PM
         </p>
 
         {/* Big hero wordmark */}
@@ -15,8 +15,7 @@ export default function Home() {
 
         {/* Subheading */}
         <p className="text-base md:text-xl text-neutral-300 max-w-2xl">
-          A retro GambleFi AMM where liquidity, risk, and reward are played
-          through an on-chain claw machine.
+          Claw your way to the top.
         </p>
       </div>
     </main>
