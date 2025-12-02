@@ -1,16 +1,24 @@
-import Image from 'next/image'
-
+// app/page.tsx
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black relative">
-      <Image
-        src="/landing-page-2.jpg"
-        alt="ClawFi landing background"
-        fill
-        priority
-        className="object-contain md:object-scale-down"
-        style={{ objectPosition: 'center' }}
-      />
+    <main className="min-h-screen bg-black text-white flex items-center px-6">
+      <div className="mx-auto w-full max-w-5xl">
+        {/* Small label */}
+        <p className="text-xs md:text-sm uppercase tracking-[0.25em] text-neutral-500 mb-4">
+          Neo-gamified AMM platform
+        </p>
+
+        {/* Big hero wordmark */}
+        <h1 className="text-6xl md:text-8xl font-semibold tracking-tight leading-[0.9] mb-6">
+          ClawFi
+        </h1>
+
+        {/* Subheading */}
+        <p className="text-base md:text-xl text-neutral-300 max-w-2xl">
+          A retro GambleFi AMM where liquidity, risk, and reward are played
+          through an on-chain claw machine.
+        </p>
+      </div>
     </main>
   )
 }
