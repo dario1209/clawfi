@@ -7,7 +7,7 @@ export default function Home() {
         {/* LEFT: CRT image */}
         <div className="w-full md:w-1/2">
           <Image
-            src="/landing-page-2.jpg"   // <-- match your filename in /public
+            src="/claw-image.png"   // <-- match your filename in /public
             alt="ClawFi screens"
             width={800}
             height={600}
@@ -32,4 +32,3 @@ export default function Home() {
     </main>
   )
 }
-
